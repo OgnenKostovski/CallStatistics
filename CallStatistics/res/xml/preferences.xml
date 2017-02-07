@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <EditTextPreference
+            android:key="myTariff"
+            android:summary="My Tariff"
+            android:title="MyTariff"
+            android:defaultValue="" />
+
+        <EditTextPreference
+            android:key="myOperator"
+            android:summary="My Operatr"
+            android:title="My Operator"
+            android:defaultValue="" />
+        
+        <CheckBoxPreference
+            android:key="saveTariff"
+            android:summary="Save Tariff"
+            android:title="SaveTariff"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
